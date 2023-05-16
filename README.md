@@ -1,8 +1,12 @@
 # python-pychart
-creation of pychart using python code
+
+#creation of pychart using python code
 #import library
+
 from matplotlib import pyplot as plt
+
 slices = [30, 40, 20, 50]
+
 #sum needs not be 100
 plt.pie(slices)
 plt.show()
